@@ -1,0 +1,9 @@
+# Vertical size of the Shard Pickaxe area (blocks above / below the mined block)
+pickaxe:
+  up: 4
+  down: 4
+# Max logs the Shard Axe breaks in one chop
+axe:
+  max-logs: 100
+# How many past purchases are kept per player
+history-limit: 45

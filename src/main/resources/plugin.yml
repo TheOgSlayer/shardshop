@@ -1,0 +1,18 @@
+name: ShardShop
+version: 1.0.0
+main: dev.shardshop.ShardShopPlugin
+api-version: '1.21'
+description: Shard-powered tool shop with self-destructing multi-break tools.
+depend: [ShopPlugin]
+softdepend: [BlueCore]
+
+commands:
+  shardshop:
+    description: Open the Shard Shop
+    usage: /shardshop [additem|removeitem|list|reload]
+
+permissions:
+  shardshop.use:
+    default: true
+  shardshop.admin:
+    default: op
